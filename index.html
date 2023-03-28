@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+
+  <!-- my css -->
+  <link rel="stylesheet" href="styles.css" />
+
+
+  <title>Frontend Mentor | News homepage</title>
+
+  <script src="nav.js" defer></script>
+
+
+</head>
+<body id="body" dark="false">
+
+
+  <div class="grid-container" id="grid-container" dark="false">
+
+    <header class="grid-item primary-header flex">
+      <div class="logo">
+        <img src="assets/images/logo.svg" alt="news-homepage-logo" class="logo">
+      </div>
+
+      <button class="mobile-nav-toggle" aria-controls="primary-navigation body main sidebar numbered-articles" aria-expanded="false">
+        <span class="sr-only">
+          Menu
+        </span>
+      </button>
+
+      <nav>
+        <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+          <li class="active">Home</li>
+          <li class="active">New</li>
+          <li class="active">Popular</li>
+          <li class="active">Trending</li>
+          <li class="active">Categories</li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <main class="grid-item main" id="main" dark="false">
+      <picture class="main__image">
+        <source media="(max-width:50em)" srcset="assets/images/image-web-3-mobile.jpg" alt="image-web-3-mobile">
+        <img src="assets/images/image-web-3-desktop.jpg" alt="image-web-3-desktop">
+      </picture>
+      <div class="main__sub-grid">
+        <h1 class="main__title">
+          The Bright Future of Web 3.0?
+        </h1>
+        <div class="main__text">
+          <p>
+            We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+            But is it really fulfilling its promise?
+          </p>
+          <button class="main__button active">Read more</button>
+        </div>
+        
+      </div>     
+    </main>
+
+
+    <article class="sidebar grid-item" id="sidebar" dark="false">
+      <h2 class="sidebar__title">New</h2>
+      <div class="sidebar__item">
+        <h3 class="sidebar__headline active">Hydrogen VS Electric Cars</h3>
+        <p class="sidebar__text">Will hydrogen-fueled cars ever catch up to EVs?</p>
+      </div>
+      
+      <div class="sidebar__item">
+        <h3 class="sidebar__headline active">The Downsides of AI Artistry</h3>
+        <p class="sidebar__text">What are the possible adverse effects of on-demand AI image generation?</p>
+      </div>
+      
+
+      <div class="sidebar__item">
+        <h3 class="sidebar__headline active">Is VC Funding Drying Up?</h3>
+        <p class="sidebar__text">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </div>
+      
+    </article>
+
+    <article class="numbered-articles grid-item" id="numbered-articles" dark="false">
+      <div class="numbered-articles__item">
+        <div class="numbered-articles__image">
+          <img src="assets/images/image-retro-pcs.jpg" alt="image-retro-pcs">
+        </div>
+        <div class="numbered-articles__text-area">
+          <h1 class="numbered-articles__number">
+            01
+          </h1>
+          <div class="numbered-articles__headline">
+            Reviving Retro PCs
+          </div>
+          <div class="numbered-articles__content">
+            What happens when old PCs are given modern upgrades?
+          </div>
+        </div>
+      </div>
+
+      <div class="numbered-articles__item">
+        <div class="numbered-articles__image">
+          <img src="assets/images/image-top-laptops.jpg" alt="image-top-laptops">
+        </div>
+        <div class="numbered-articles__text-area">
+          <h1 class="numbered-articles__number">
+            02
+          </h1>
+          <div class="numbered-articles__headline">
+            Top 10 Laptops of 2022
+          </div>
+          <div class="numbered-articles__content">
+            Our best picks for various needs and budgets.
+          </div>
+        </div>
+      </div>
+      
+      <div class="numbered-articles__item">
+        <div class="numbered-articles__image">
+          <img src="assets/images/image-gaming-growth.jpg" alt="image-gaming-growth">
+        </div>
+        <div class="numbered-articles__text-area">
+          <h1 class="numbered-articles__number">
+            03
+          </h1>
+          <div class="numbered-articles__headline">
+            The Growth of Gaming
+          </div>
+          <div class="numbered-articles__content">
+            How the pandemic has sparked fresh opportunities.
+          </div>
+        </div>
+      </div>   
+
+    </article>
+
+  </div>
+  
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/pwaycuilis">Paul Waycuilis</a>.
+    </div>
+  </footer>
+  
+</body>
+</html>
