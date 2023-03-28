@@ -25,16 +25,19 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
+### Screenshots
 
+Desktop view
 ![](./screenshots/news-homepage-main_desktop-screenshot.png)
+
+Mobile view
 ![](./screenshots/news-homepage-main_mobile-screenshot.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/pwaycuilis/news-homepage-main)
-- Live Site URL: [Add live site URL here](https://pwaycuilis.github.io/news-homepage-main/)
+- Solution URL: [https://github.com/pwaycuilis/news-homepage-main](https://github.com/pwaycuilis/news-homepage-main)
+- Live Site URL: [https://pwaycuilis.github.io/news-homepage-main/](https://pwaycuilis.github.io/news-homepage-main/)
 
 ## My process
 
